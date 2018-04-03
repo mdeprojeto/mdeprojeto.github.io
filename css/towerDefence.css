@@ -1,0 +1,21 @@
+header {
+  padding-top: 110px;
+}
+.variasImagens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  padding: 0;
+}
+.variasImagens > img {
+  width: 30%;
+  height: 30%;
+  transition: width 0.8s;
+}
+.variasImagens > img:hover {
+  width: 35%;
+  height: 35%;
+}

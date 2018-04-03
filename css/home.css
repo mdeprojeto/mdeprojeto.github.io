@@ -1,0 +1,242 @@
+
+body, html {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 1.25em;
+  font-weight: 450;
+}
+h1 {
+  text-decoration: none;
+  font-size: 3em;
+  font-family: 'Arsenal', sans-serif;
+  color: #FFFFFF;
+}
+h2 {
+    font-size: 2em;
+    font-family: 'Arsenal', sans-serif;
+    margin-top: 0;
+    color: #FFFFFF;
+}
+header {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #F0F8FF;
+}
+.imagemPassa {
+  width: 250px;
+  height: 250px;
+  border-radius: 275px;
+  transition: border-radius 1s ease-in-out;
+  opacity: 0.95;
+}
+.itensRedondos {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  transition: border-radius 0.5s ease-in-out;
+}
+.itensRedondos:hover {
+  border-radius: 250px;
+
+}
+.localItens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-shrink: 1;
+  padding: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #FFFAF0;
+}
+.barTop {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: baseline;
+  width: 100%;
+  height: 110px;
+  background-color: #28242B;
+  position: fixed;
+}
+.barTop > a {
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin: auto;
+  padding: 20px 30px 20px 30px;
+  color: #FFFFFF;
+  transition: color 1s;
+}
+.barTop > h1 {
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Gudea', sans-serif;
+  font-size: 16pt;
+  font-weight: bolder;
+  margin: auto;
+  padding: 20px 30px 20px 30px;
+  color: #FFFFFF;
+  padding-right: 40%;
+  font-size: 2.25em;
+  min-width: 200px;
+}
+a#HERE {
+    background-color: #322838;
+    color: #FFFFFF;
+    border-radius: 25px;
+  }
+.barTop > a:hover {
+    background-color: #322838;
+    border-radius: 25px;
+}
+.boxImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-end;
+  background-color: #606060;
+  padding-top: 110px;
+}
+.boxImage > h1 {
+  font-size: 3.5em;
+  color: #ffffff;
+  font-family: 'Arsenal', sans-serif;
+  padding: 0;
+  margin-top: 110px;
+  border-top: 5px solid #FFFFFF;
+}
+.noFundo {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #28242B;
+  margin: auto;
+  height: 100%;
+}
+.noFundo > a > img {
+  border-radius: 20px;
+  width: 96px;
+  height: 96px;
+  filter: grayscale(100%);
+  margin: 2px;
+}
+
+.noFundo > a > img:hover {
+  filter: grayscale(0%);
+}
+.intensNomes {
+  flex-grow: 5;
+  flex-shrink: 5;
+}
+
+/*-------------------------ARTIGOS---------------------*/
+.sobreEU {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  background-color: #3F7299;
+  padding: 25px
+}
+.sobreEU > h1 {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid red;
+}
+.sobreEU > h2 {
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+}
+.sobreAlgo {
+  display: flex;
+  flex-direction: column;
+  background-color: #3F7299;
+  padding: 25px
+}
+.sobreAlgo > h1 {
+  background-color: #FFE7E8;
+  border-left: 20px solid #E66465;
+  color: #646464;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  border-radius: 10px;
+}
+.sobreAlgo > h2 {
+  color: #FFFFFF;
+  border-radius: 25px;
+  margin: 10px;
+  padding: 20px;
+}
+/*ANIMATIONS WITH CSS  >>The animation code<<*/
+
+.noTalo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  background-color: #322838;
+}
+.noTalo > h2 {
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 1em;
+  padding: 2px;
+  color: #C0C0C0;
+}
+/*
+.noFundo > a#github:hover {
+  background-image: url("imagens/Icone-github-hover.png");
+}
+*/
+.linksFundo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  padding: 5px 20% 5px 20%;
+}
+.linksFundo > h2 {
+  padding: 2px;
+  margin: 0;
+  color: #C0C0C0;
+}
+.linksFundo > a {
+  padding: 5px;
+  border-radius: 2px;
+  color: #696969;
+  transition: background-color 2s;
+  transition: font-weight 0.8s;
+  transition: color 0.8s;
+}
+.linksFundo > a:hover {
+    color: #FFFFFF;
+    font-weight: 900;
+    background-color: #322838;
+}

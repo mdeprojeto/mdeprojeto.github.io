@@ -38,9 +38,7 @@ body {
 .imagemPassa {
   width: 250px;
   height: 250px;
-  border-radius: 275px;
-  transition: border-radius 1s ease-in-out;
-  opacity: 0.95;
+  margin-top: 75px;
 }
 .itensRedondos {
   width: 250px;
@@ -114,15 +112,15 @@ a#HERE {
   justify-content: flex-end;
   align-items: center;
   align-content: flex-end;
-  background-color: #606060;
   padding-top: 110px;
+  background: url('../imagens/Fundo-principal.jpg');
 }
 .boxImage > h1 {
   font-size: 3.5em;
-  color: #ffffff;
+  color: #606060;
   font-family: 'Arsenal', sans-serif;
   padding: 0;
-  margin-top: 110px;
+  margin-top: 50px;
   border-top: 5px solid #FFFFFF;
 }
 .noFundo {
